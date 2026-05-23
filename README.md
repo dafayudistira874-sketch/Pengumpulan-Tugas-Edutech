@@ -62,7 +62,7 @@ Klik tombol **Fork** pada repository ini.
 ## 2. Clone Repository
 
 ```bash
-git clone https://github.com/username/repository-name.git
+git clone https://github.com/ukmgradien/Pengumpulan-Tugas-Edutech
 ```
 
 ---
