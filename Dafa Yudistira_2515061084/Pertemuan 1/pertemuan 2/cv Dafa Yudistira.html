@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dafa Yudistira | Web Developer</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+
+            <h2 class="logo">Dafa.</h2>
+
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#skills">Skill</a></li>
+                <li><a href="#projects">Project</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section id="home" class="hero">
+
+        <div class="hero-text">
+
+            <h1>Halo, Saya <span>Dafa Yudistira</span></h1>
+
+            <h2>Web Developer & Informatics Student</h2>
+
+            <p>
+                Mahasiswa Teknik Informatika Universitas Lampung
+                yang memiliki minat pada pengembangan website
+                menggunakan HTML, CSS, JavaScript, dan Python.
+            </p>
+
+            <a href="#projects" class="btn">
+                Lihat Project
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- Tentang -->
+    <section id="about">
+
+        <h2 class="section-title">
+            Tentang Saya
+        </h2>
+
+        <div class="about">
+
+            <p>
+                Saya adalah mahasiswa Teknik Informatika Universitas Lampung
+                yang memiliki ketertarikan pada dunia Web Development.
+                Saat ini saya terus mempelajari HTML, CSS, JavaScript,
+                Python, serta Git dan GitHub untuk meningkatkan kemampuan
+                dalam membangun website yang modern dan responsif.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- Skill -->
+    <section id="skills">
+
+        <h2 class="section-title">
+            Skills
+        </h2>
+
+        <div class="skill-container">
+
+            <div class="skill-card">HTML5</div>
+            <div class="skill-card">CSS3</div>
+            <div class="skill-card">JavaScript</div>
+            <div class="skill-card">Python</div>
+            <div class="skill-card">Git & GitHub</div>
+            <div class="skill-card">Responsive Design</div>
+
+        </div>
+
+    </section>
+
+    <!-- Project -->
+    <section id="projects">
+
+        <h2 class="section-title">
+            My Projects
+        </h2>
+
+        <!-- Filter -->
+
+        <div class="filter-buttons">
+
+            <button onclick="filterProject('all')">
+                Semua
+            </button>
+
+            <button onclick="filterProject('web')">
+                Web Dev
+            </button>
+
+            <button onclick="filterProject('python')">
+                Python
+            </button>
+            
+        </div>
+
+        <!-- Project List -->
+
+        <div class="project-container">
+
+            <div class="project web">
+
+                <h3>Website Portfolio</h3>
+
+                <p>
+                    Website portfolio pribadi menggunakan HTML, CSS,
+                    dan JavaScript.
+                </p>
+
+            </div>
+
+            <div class="project web">
+
+                <h3>Landing Page</h3>
+
+                <p>
+                    Landing page modern yang responsif.
+                </p>
+
+            </div>
+
+            <div class="project python">
+
+                <h3>Program Matriks Python</h3>
+
+                <p>
+                    Implementasi operasi matriks menggunakan Python.
+                </p>
+
+            </div>
+
+            <div class="project python">
+
+                <h3>Sistem Perpustakaan</h3>
+
+                <p>
+                    Program pengelolaan data perpustakaan berbasis Python.
+                </p>
+
+            </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Contact -->
+
+    <section id="contact">
+
+        <h2 class="section-title">
+            Hubungi Saya
+        </h2>
+
+        <form id="contactForm">
+
+            <input
+                type="text"
+                id="name"
+                placeholder="Nama">
+
+            <textarea
+                id="message"
+                placeholder="Tulis pesan..."></textarea>
+
+            <p id="errorMessage"></p>
+
+            <button type="submit">
+                Kirim
+            </button>
+
+        </form>
+
+    </section>
+
+    <!-- Footer -->
+
+    <footer>
+
+        <h3>Dafa Yudistira</h3>
+
+        <p>Email : dafayudistira874@gmail.com</p>
+
+        <p>Instagram : @yudiztirahh__</p>
+
+        <p>GitHub : github.com/dafayudistira874-sketch</p>
+
+        <p>© 2026 Dafa Yudistira. All Rights Reserved.</p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
